@@ -1,12 +1,12 @@
 # PySFTP
 
-A lightweight, two-pane SFTP file manager for Windows.  More or less a PySide6 GUI for [Rclone](https://rclone.org/) with extra steps. Browse local and remote files, and manage concurrent uploads and downloads with visible progress.  Built for simplicity and ease of use.
+A quick and simple two-pane SFTP client for Windows.  More or less a PySide6 GUI for [Rclone](https://rclone.org/) with extra steps.  Built for ease of use, PySFTP has everything you need and nothing you don't.
 
 ## Features
 
 - Classic two-pane interface with standard file operations
 - Saved server profiles
-- Fast large-folder delete (req. SSH)
+- Fast recursive folder delete (req. SSH)
 - Detailed transfer queue
 - Adjustable transfer slots and multipart threshold
 - Multipart SFTP uploads (req. server support)
